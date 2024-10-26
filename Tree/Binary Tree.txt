@@ -4,5 +4,5 @@
    1) all the nodes in the levels except the last level must have 2 nodes each,
    2) the nodes in the last level must be the children of the leftmost nodes of the previous levels (for example, if there are 2 nodes in the level before the last level being
       numbered as 1 and 2 from the left, then either a) node 1 can have 1 node at its left (node 2 must be empty in this case), or b) node 1 can have 2 nodes, as well as node 2
-			can have 1 node at left, 2 nodes or no node at all.)
+		  can have 1 node at left, 2 nodes or no node at all.)
 
