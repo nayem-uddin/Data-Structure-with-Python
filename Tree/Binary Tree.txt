@@ -1,6 +1,9 @@
 -> A binary tree has less than or equal to 2 nodes.
 -> Full binary tree is a type of binary tree where each node has 0 or 2 nodes.
 -> Complete binary tree is a type of binary tree where-
-   1) all the nodes in the levels except the last level and the root level must have 2 nodes each,
-   2) the nodes in the last level must be the children of the leftmost nodes of the previous levels (for example, if there are 2 nodes in the level before the last level being numbered as 1 and 2 from the left, then either a) node 1 can have 1 node at its left (node 2 must be empty in this case), or b) node 1 can have 2 nodes, as well as node 2 can have 1 node at left, 2 nodes or no node at all.)
+   1) all the nodes in the levels except the last level have 2 nodes each,
+   2) the nodes in the last level are the children of the leftmost nodes of the previous levels (for example, if there are 2 nodes in the level before the last level being numbered as 1 and 2 from the left, then either a) node 1 can have 1 node at its left (node 2 must be empty in this case), or b) node 1 can have 2 nodes, as well as node 2 can have 1 node at left, 2 nodes or no node at all.)
+-> In a Perfect binary tree, all the nodes before the last level have 2 nodes each and all the leaf nodes are in the same level.
+-> In a Balanced binary tree, the absolute difference between the heights of the left sub-tree and the right sub-tree of each node is at most 1.
+-> Pathological (or Degenerate) binary is where each parent node has only 1 child node.
 
