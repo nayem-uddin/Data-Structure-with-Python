@@ -6,4 +6,7 @@
 -> In a Perfect binary tree, all the nodes before the last level have 2 nodes each and all the leaf nodes are in the same level.
 -> In a Balanced binary tree, the absolute difference between the heights of the left sub-tree and the right sub-tree of each node is at most 1.
 -> Pathological (or Degenerate) binary is where each parent node has only 1 child node.
-
+-> Binary Search Tree (BST) is a binary tree with the following properties:
+   1) Each of the node values of the left sub-tree will be less than the root node value,
+   2) Each of the node values of the right sub-tree will be greater than the root node value,
+   3) Each of the sub-trees will be a BST as well.
