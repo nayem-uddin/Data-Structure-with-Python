@@ -10,3 +10,6 @@
    1) Each of the node values of the left sub-tree will be less than the root node value,
    2) Each of the node values of the right sub-tree will be greater than the root node value,
    3) Each of the sub-trees will be a BST as well.
+-> BST traversal:
+   1) Pre-order traversal: node -> left sub-tree -> right sub-tree
+   2) In-order traversal: left sub-tree -> node -> right sub-tree
