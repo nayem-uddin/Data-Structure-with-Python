@@ -13,3 +13,4 @@
 -> BST traversal:
    1) Pre-order traversal: node -> left sub-tree -> right sub-tree
    2) In-order traversal: left sub-tree -> node -> right sub-tree
+   3) Post-order traversal: left sub-tree -> right sub-tree -> node
