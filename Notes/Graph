@@ -28,5 +28,5 @@
     - For an unweighted graph, it is a matrix with 1s and 0s, where 1 indicates an edge between the nodes, and 0 represents the opposite.
     - For a weighted graph, the 1s are replaced with the weights of the edges.
 -> Adjacency list:
-    - Represented with key-value pairs, where each key is a node and its value is the list of the nodes connected to it.
+    - Represented with key-value pairs, where each key is a node and its value is the list of the nodes connected to it, or the list of some pairs, where each pair consists of the connected node and the weight of the edge.
 
