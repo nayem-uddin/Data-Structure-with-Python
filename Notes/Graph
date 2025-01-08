@@ -9,9 +9,10 @@
 -> A weighted graph is a graph with value-assigned edges. The opposite is called unweighted.
 -> A graph having cycle(s) is a cyclic graph. The opposite is acyclic. (Cyclic means a path starting from a node ends at the same node.)
 -> Tree is an example of an acyclic graph.
+-> A graph with no. of edges close to the maximum is called a dense graph. The opposite is called a sparse graph.
 -> Terms related to graph:
     - Adjacent/Neighbor nodes: Two nodes connected through a single edge.
-    - Path: Sequence of nodes, each pair of nodes being connected through an edge.
+    - Path: Sequence of nodes, each pair connected through an edge.
         * Length of a path: The length of a path refers to the no. of edges.
         * Simple path: A path with no repeating node.
         * Closed path: A path having the same node as its starting and ending node.
@@ -22,3 +23,8 @@
     - Indegree of a node: The no. of edges ending at a node in a directed graph.
     - Outdegree of a node: The no. of edges starting from a node in a directed graph.
     - Complete graph: A graph having an edge between each pair of nodes.
+-> Adjacency matrix: Matrix representation of the connections between the nodes.
+    - It is a k*k matrix, where k is the no. of nodes.
+    - For an unweighted graph, it is a matrix with 1s and 0s, where 1 indicates an edge between the nodes, and 0 represents the opposite.
+    - For a weighted graph, the 1s are replaced with the weights of the edges.
+
