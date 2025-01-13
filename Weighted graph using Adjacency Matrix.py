@@ -22,16 +22,16 @@ class Graph:
       # adding an extra row for the new node
       self.matrix.append([0]*self.node_count)
 
-  def add_edge(self, node1, node2):
+  def add_edge(self, node1, node2,weight):
     if node1 not in self.nodes or node2 not in self.nodes:
       absent_node='Either node' if node1 not in self.nodes and node2 not in self.nodes else (node1 if node1 not in self.nodes else node2)
       print(absent_node,"does not exist")
     else:
       node1_index = self.nodes.index(node1)
       node2_index = self.nodes.index(node2)
-      self.matrix[node1_index][node2_index]=1
-      self.matrix[node2_index][node1_index]=1 # for a directed graph, this line is to be omitted
-    
+      self.matrix[node1_index][node2_index]=weight
+      self.matrix[node2_index][node1_index]=weight # for a directed graph, this line is to be omitted
+
   def delete_node(self,node):
     if node not in self.nodes:
       print(node,"does not exist.")
@@ -62,10 +62,14 @@ for i in ['A','B','C','E','F']:
   graph.add_node(i)
 print("After adding nodes:")
 graph.print_graph()
-graph.add_edge('A','C')
-graph.add_edge('D','A')
-graph.add_edge('D','C')
-graph.add_edge('B','A')
+print('After adding edge:')
+graph.add_edge('A','C',5)
+graph.add_edge('D','A',10)
+graph.add_edge('D','C',3)
+graph.add_edge('B','A',6)
+graph.print_graph()
+graph.delete_node('B')
+graph.delete_node("D")
 graph.print_graph()
 print("Before deleting edges:")
 graph.print_graph()
