@@ -52,3 +52,6 @@
     - If that node is unvisited, then visit that node and push its adjacent nodes to the stack.
     - Repeat the process for each of the nodes until all the nodes are visited.
 - **BFS**
+  - Breadth First Search
+  - A level-order traversal algorithm
+  - Starts at an arbitrary node and traverses its neighbors, before moving to the next level
